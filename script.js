@@ -4,13 +4,6 @@ $(function() {
         glow.style.left = event.pageX - 33  + "px";
         glow.style.top = event.pageY - 33 + "px";
     });
-    
-    // $('#right').on('wheel', function(event) {
-    //     event.preventDefault(); // Prevent default scrolling behavior
-    //     var delta = event.originalEvent.deltaY; // Get the wheel movement delta
-    //     var scrollTop = $(this).scrollTop(); // Get the current scroll position
-    //     $(this).scrollTop(scrollTop + delta); // Scroll vertically based on the wheel movement
-    // });
 
     $(".skill").hover(function() {
         var w = parseInt($(this).find(".skillbar").width());
